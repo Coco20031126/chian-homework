@@ -1,0 +1,48 @@
+@charset "utf-8";
+#container {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #2E3A76;
+	background-color: #27315E;
+}
+#header {
+	width: 980px;
+	height: 46px;
+	background-image: url(../%E4%B8%AD%E5%9B%BD%E7%93%B7%E5%99%A8/%E5%AF%BC%E8%88%AA%E6%9D%A1.png);
+}
+#left {
+	float: left;
+	width: 328px;
+	background-color: #f2f8ff;
+	background-image: url(../%E4%B8%AD%E5%9B%BD%E7%93%B7%E5%99%A8/footer.png);
+}
+#navi a:link, #navi a:visited {
+	font-family: "华文仿宋";
+	font-size: 24px;
+	font-weight: bolder;
+	color: #2d3973;
+	text-decoration: none;
+}
+#navi a:hover {
+	color: #000;
+	text-align: center;
+}
+
+
+#wh1 {
+	width: 980px;
+}
+
+#right {
+	float: right;
+	width: 652px;
+	height: 436px;
+	background-color: #2d3973;
+}
+#wh {
+	width: 980px;
+}
+#footer {
+	width: 980px;
+}

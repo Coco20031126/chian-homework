@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>首页</title>
+<link href="GDZC.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+#apDiv1 {
+	position: absolute;
+	width: 436px;
+	height: 432px;
+	z-index: 1;
+	left: 833px;
+	top: 863px;
+}
+#apDiv2 {
+	position: absolute;
+	width: 351px;
+	height: 436px;
+	z-index: 1;
+	left: 783px;
+	top: 801px;
+}
+</style>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onload="MM_preloadImages('../中国瓷器/鼠标经过后.png')">
+<div id="container">
+  <div id="header">
+    <div class="m1">
+      <table width="70%" height="47" border="0" align="right" id="navi">
+        <tr>
+          <td align="right"><a href="首页.html">首页</a>&nbsp;&nbsp; <a href="../陈果峰22122019/瓷器历史.html">瓷器历史</a>&nbsp; &nbsp;<a href="../22103126乐宇欣(1)/瓷器分类.html">瓷器分类</a>&nbsp;&nbsp; <a href="../22121014 高绣天/著名瓷城.html">著名瓷城</a><a href="../中国瓷器/登陆注册.html">&nbsp; 登录/注册&nbsp; &nbsp;</a>&nbsp;&nbsp;</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <div id="banner"><img src="../中国瓷器/主页.png" width="980" height="551" />
+    <div id="apDiv2"><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image3','','../中国瓷器/鼠标经过后.png',1)"><img src="../中国瓷器/鼠标经过前.png" width="432" height="432" id="Image3" /></a></div>
+  </div>
+  <div id="info"></div>
+  <div id="footer"><img src="../中国瓷器/footer.png" width="980" height="46" /></div>
+</div>
+</body>
+</html>

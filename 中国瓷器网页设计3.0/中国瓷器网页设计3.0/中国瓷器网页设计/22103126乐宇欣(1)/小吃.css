@@ -1,0 +1,63 @@
+@charset "utf-8";
+#container {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: "方正粗黑宋简体";
+	font-size: 20px;
+	font-weight: normal;
+	text-align: left;
+	background-color: #2D3973;
+}
+#menu {
+	height: 45px;
+	width: 980px;
+	background-image: url(../%E4%B8%AD%E5%9B%BD%E7%93%B7%E5%99%A8/%E5%AF%BC%E8%88%AA%E6%9D%A1.png);
+}
+#header2 {
+	height: 60px;
+	color: #CCCCCC;
+	font-size: 50px;
+	text-align: center;
+	font-family: "等线";
+	background-color: #2d3973;
+	font-weight: bold;
+}
+
+
+
+
+#header {
+	width: 980px;
+	height: 551px;
+	background-image: url(../%E4%B8%AD%E5%9B%BD%E7%93%B7%E5%99%A8/%E4%B8%BB%E9%A1%B5.png);
+}
+#footer {
+	background-image: url(../%E4%B8%AD%E5%9B%BD%E7%93%B7%E5%99%A8/footer.png);
+
+}
+.t3 {
+	font-family: "方正粗黑宋简体";
+	font-size: 24px;
+	color: #f2f8ff;
+}
+.t4 {
+	color: #f2f8ff;
+}
+.t5 {
+	font-size: 24px;
+	color: #FFFFFF;
+	font-weight: bolder;
+	font-family: "华文仿宋";
+	text-transform: none;
+}
+#navi a:link, #navi a:visited {
+	font-family: "华文仿宋";
+	font-size: 24px;
+	font-weight: bolder;
+	color: #2D3973;
+	text-decoration: none;
+}
+#navi a:hover {
+	color: #000;
+}

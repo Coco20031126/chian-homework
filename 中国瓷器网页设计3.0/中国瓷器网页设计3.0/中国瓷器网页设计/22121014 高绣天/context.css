@@ -1,0 +1,49 @@
+@charset "utf-8";
+#countainer {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #2D3973;
+}
+#header {
+	height: 551px;
+	width: 980px;
+	background-image: url(../%E4%B8%AD%E5%9B%BD%E7%93%B7%E5%99%A8/%E5%AF%BC%E8%88%AA%E6%9D%A1.png);
+}
+#link {
+	float: left;
+	height: 800px;
+	width: 200px;
+	background-image: url(image/12.png);
+	background-color: #2D3973;
+}
+#context {
+	float: left;
+	height: 800px;
+	width: 780px;
+	background-image: url(../%E4%B8%AD%E5%9B%BD%E7%93%B7%E5%99%A8/bj.png);
+	background-color: #2D3973;
+}
+#footer {
+	clear: left;
+	float: none;
+	width: 980px;
+	background-image: url(image/mmexport1732583903123.png);
+	height: 45px;
+}
+#menu {
+	width: 980px;
+	background-image: url(../%E4%B8%AD%E5%9B%BD%E7%93%B7%E5%99%A8/%E5%AF%BC%E8%88%AA%E6%9D%A1.png);
+	height: 45px;
+}
+#navi a:link, #navi a:visited {
+	font-family: "华文仿宋";
+	font-size: 24px;
+	font-weight: bolder;
+	color: #2D3A75;
+	text-decoration: none;
+}
+#navi a:hover {
+	color: #000;
+	text-decoration: none;
+}

@@ -1,0 +1,43 @@
+@charset "utf-8";
+#container {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #2A3466;
+}
+#header {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 46px;
+	background-image: url(../%E4%B8%AD%E5%9B%BD%E7%93%B7%E5%99%A8/%E5%AF%BC%E8%88%AA%E6%9D%A1.png);
+	font-size: 24px;
+	font-weight: bolder;
+	color: #2d3973;
+	font-family: "华文仿宋";
+}
+#navi a:link, #navi a:visited {
+	font-family: "华文仿宋";
+	font-size: 24px;
+	font-weight: bolder;
+	color: #2d3973;
+	text-decoration: none;
+}
+
+#banner {
+	height: 551px;
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#info {
+	width: 980px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 670px;
+	background-image: url(../%E4%B8%AD%E5%9B%BD%E7%93%B7%E5%99%A8/china.png);
+}
+#navi a:hover {
+	color: #000;
+	text-decoration: none;
+}
